@@ -1,0 +1,7 @@
+# Bloquea el acceso desde el navegador a archivos ocultos (.env, .gitignore)
+# y a la carpeta database, porque con XAMPP todo el proyecto queda dentro de htdocs.
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+RedirectMatch 403 ^/.*/(app|config|core|routes|database|vendor)/

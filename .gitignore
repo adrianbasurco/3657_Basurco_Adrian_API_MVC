@@ -1,0 +1,12 @@
+# Dependencias (no se suben al repositorio)
+/vendor
+/node_modules
+
+# Datos sensibles de conexión
+.env
+
+# Archivos del sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

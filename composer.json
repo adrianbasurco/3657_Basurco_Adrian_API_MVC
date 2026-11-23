@@ -1,0 +1,15 @@
+{
+    "name": "marah/api-mvc",
+    "description": "PA4 - API REST con arquitectura MVC para Marah (venta de kefir)",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
